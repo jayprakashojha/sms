@@ -1,0 +1,176 @@
+Step1:-
+CREATE DATABASE school_management_system;
+
+
+Step2:-
+CREATE TABLE student_registration (    id INT AUTO_INCREMENT PRIMARY KEY,    name VARCHAR(100) NOT NULL,    fname VARCHAR(100) NOT NULL,    email VARCHAR(100) NOT NULL,    mob BIGINT NOT NULL,    dob DATE NOT NULL,    adhar BIGINT,    gender ENUM('Male', 'Female') NOT NULL,    category ENUM('SC', 'ST', 'OBC', 'GEN') NOT NULL,    education_level ENUM('10', '12', 'UG', 'PG', 'Other') NOT NULL,    address VARCHAR(255) NOT NULL,    pin INT NOT NULL,    job VARCHAR(100) NOT NULL,    btime TIME NOT NULL,    class INT NOT NULL,    photo VARCHAR(255) NOT NULL);
+
+
+
+Step3:-
+CREATE TABLE enquiries (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    fname VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    mob VARCHAR(20) NOT NULL,
+    gender ENUM('Male', 'Female') NOT NULL,
+    address VARCHAR(255) NOT NULL,
+    category ENUM('EDUCATION', 'BUSINESS', 'REAL ESTATE', 'Other') NOT NULL,
+    category_description TEXT NOT NULL,
+    enquiry TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
+
+
+
+Step4:-
+CREATE TABLE user_login (
+    username VARCHAR(50) PRIMARY KEY,
+    password_hash VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    UNIQUE KEY (username)
+);
+
+
+
+Step5:-
+CREATE TABLE teachers_registration (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    uid VARCHAR(255) NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    fname VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    mob VARCHAR(15) NOT NULL,
+    gender ENUM('Male', 'Female') NOT NULL,
+    address TEXT NOT NULL,
+    sub1 VARCHAR(255) NOT NULL,
+    sub2 VARCHAR(255),
+    sub3 VARCHAR(255),
+    ug1 VARCHAR(255) NOT NULL,
+    ug2 VARCHAR(255),
+    pg1 VARCHAR(255) NOT NULL,
+    pg2 VARCHAR(255),
+    voc1 VARCHAR(255) NOT NULL,
+    voc2 VARCHAR(255)
+);
+
+UPDATED TEACHER RAGISTRATION:-
+CREATE TABLE TeacherRegistration (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    uid VARCHAR(20) NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    fname VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    pswd VARCHAR(255) NOT NULL,
+    mob VARCHAR(15) NOT NULL,
+    gender ENUM('Male', 'Female') NOT NULL,
+    address TEXT NOT NULL,
+    sub1 VARCHAR(100) NOT NULL,
+    sub2 VARCHAR(100),
+    sub3 VARCHAR(100),
+    ug1 VARCHAR(100) NOT NULL,
+    ug2 VARCHAR(100),
+    pg1 VARCHAR(100) NOT NULL,
+    pg2 VARCHAR(100),
+    voc1 VARCHAR(100) NOT NULL,
+    voc2 VARCHAR(100)
+);
+
+
+
+
+
+
+Step6:-
+CREATE TABLE teacher_login (
+    username VARCHAR(50) PRIMARY KEY,
+    password_hash VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+Step7:-
+CREATE TABLE student_feedback (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    student_name VARCHAR(100) NOT NULL,
+    student_email VARCHAR(100) NOT NULL,
+    feedback TEXT NOT NULL,
+    submission_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+Step8:-
+CREATE TABLE teacher_feedback (
+    id INT NOT NULL AUTO_INCREMENT,
+    teacherName VARCHAR(255) NOT NULL,
+    teacherEmail VARCHAR(255),
+    course VARCHAR(255) NOT NULL,
+    teachingExperience INT NOT NULL,
+    feedback TEXT NOT NULL,
+    createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (id)
+);
+
+
+Step9:-
+CREATE TABLE StudentAttendance (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    rollno VARCHAR(10) NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    class INT NOT NULL,
+    section CHAR(1) NOT NULL,
+    attendance_date DATE NOT NULL,
+    status ENUM('Present', 'Absent') NOT NULL,
+    teachersname VARCHAR(100) NOT NULL,
+    remark TEXT
+);
+
+
+Step10:-
+CREATE TABLE SubjectAllocation (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    subject1 VARCHAR(255) NOT NULL,
+    code1 VARCHAR(255) NOT NULL,
+    teachername1 VARCHAR(255) NOT NULL,
+    bookname1 VARCHAR(255),
+    subject2 VARCHAR(255),
+    code2 VARCHAR(255),
+    teachername2 VARCHAR(255),
+    bookname2 VARCHAR(255),
+    subject3 VARCHAR(255),
+    code3 VARCHAR(255),
+    teachername3 VARCHAR(255),
+    bookname3 VARCHAR(255),
+    subject4 VARCHAR(255),
+    code4 VARCHAR(255),
+    teachername4 VARCHAR(255),
+    bookname4 VARCHAR(255),
+    subject5 VARCHAR(255),
+    code5 VARCHAR(255),
+    teachername5 VARCHAR(255),
+    bookname5 VARCHAR(255)
+);
+
+Step11:-
+CREATE TABLE period_allocation (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    class INT NOT NULL,
+    subject_name1 VARCHAR(255) NOT NULL,
+    period1 INT NOT NULL,
+    teacher_name1 VARCHAR(255) NOT NULL,
+    subject_name2 VARCHAR(255) NOT NULL,
+    period2 INT NOT NULL,
+    teacher_name2 VARCHAR(255) NOT NULL,
+    subject_name3 VARCHAR(255) NOT NULL,
+    period3 INT NOT NULL,
+    teacher_name3 VARCHAR(255) NOT NULL,
+    subject_name4 VARCHAR(255) NOT NULL,
+    period4 INT NOT NULL,
+    teacher_name4 VARCHAR(255) NOT NULL,
+    subject_name5 VARCHAR(255) NOT NULL,
+    period5 INT NOT NULL,
+    teacher_name5 VARCHAR(255) NOT NULL,
+    subject_name6 VARCHAR(255) NOT NULL,
+    period6 INT NOT NULL,
+    teacher_name6 VARCHAR(255) NOT NULL
+);
