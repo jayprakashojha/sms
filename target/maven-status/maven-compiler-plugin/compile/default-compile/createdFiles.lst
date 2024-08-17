@@ -1,0 +1,6 @@
+com\management\controller\LoginController.class
+com\management\controller\repositoryimp.class
+com\management\controller\Bean_Registration_form.class
+com\management\controller\beean.class
+com\management\controller\SchoolManagementProjectApplication.class
+com\management\controller\repositoryinterface.class
