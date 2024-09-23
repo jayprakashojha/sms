@@ -1,0 +1,15 @@
+CREATE TABLE Students (
+    student_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    class VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE Fees (
+    fee_id INT PRIMARY KEY AUTO_INCREMENT,
+    student_id INT NOT NULL,
+    total_fees DECIMAL(10, 2) NOT NULL,
+    fees_paid DECIMAL(10, 2) DEFAULT 0.00,
+    payment_date DATE,
+    payment_status VARCHAR(20) DEFAULT 'Pending',
+    FOREIGN KEY (student_id) REFERENCES Students(student_id)
+);
