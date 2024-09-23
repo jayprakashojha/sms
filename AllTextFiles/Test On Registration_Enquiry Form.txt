@@ -1,0 +1,43 @@
+			"Student Registration Page"
+
+Name field accepted numbers--Wrong
+FatherName field accepted numbers---It is Wrong
+Address field accepted numbers--Wrong
+Any Job field accepted numbers --- Wrong
+------------------------------------------------
+Name field accepted special symbol---wrong
+FatherName field accepted only special symbol---Wrong
+MobileNumber field accepted one number--wrong
+DOB field accepted 01-01-0001 it is wrong
+AdharCard field accepted one number--- it is wrong
+Address Field accepted special symbol---Wrong
+PinCode accepted one number ---Wrong
+Time field accepted any time --------- time field should select the correct time.
+there is no message showing for selecting "Gender".
+there is no message showing for selecting "Category".
+there is no message showing for selecting "Education Level".
+there is no message showing for selecting "Which class Admission"
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+
+			"Enquiry Management System"
+
+Name field accepted numbers--Wrong
+FatherName field accepted numbers--Wrong
+MobileNumber field accepted one number---Wrong
+Address Field accepted one number--- Wrong
+Description field accepted one number--- Wrong
+"Enter Your Enquiry" field accepted one number---Wrong
+------------------------------------------------------------
+
+Name field accepted special symbol---Wrong
+FatherName field accepted special symbol---Wrong
+Address field accepted special symbol---Wrong
+"Enter Your selected category Description" field accepted special symbol---Wrong
+"Enter Your Enquiry" field accepted special symbol--- Wrong
+-----------------------------------------------------------------------------
+there is no message showing for selecting "Gender".
+there is no message showing for selecting "Category".
+
+
+
