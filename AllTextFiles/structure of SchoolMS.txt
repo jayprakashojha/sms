@@ -1,0 +1,295 @@
+top me Student,Teachers, parents, classes, ye rahega fir left side horijontal line me ye rahega like Dashboard, Messages, Students, Tearchers, Parents, Classes, attendance, Subjects, Marks, Exams, Events, Time table, import history, nofify,transport,change password, Leave calender. fir iske baad in option ke ander or bhi option rahenge jese Students- add student, print, import, export.    add student- student details,school details, parent details.       Teachers- add teacher, print, imports, export, add teacher- personal details, school details.                                                                            
+Parents- parents details,add prents,print, export.  
+                          
+Attendance- attendance report, add/update, view                                                                                       
+Subjests- list of subjects, add new subjects.                                                                                            
+Teacher Attendance- add, view.                                                                                                                        
+change password                                                                                                                                                Admin Features
+Add/update/delete students information
+Add/update/delete teachers information
+Add/update/delete parents information
+Add/update/delete student marks
+Manage logins for students/parents/teachers.
+Manage school events
+Get feedback from Students/Parents
+Manage transportation details
+Edit system settings
+Send Message to Teacher/Parents/Students
+
+
+Teacher Features
+Add/update/delete students information
+Import/Export marks as CSV
+Add/update/delete parents information
+Add/update/delete class routine
+Add/update/delete student marks
+Add/update/delete Events
+Manage login's for students/parents
+Send message to parents
+Manage marks/attendance/exams/classes
+Send marksheets to parents email
+
+
+Parent Features
+View teacher's profile
+View school transportation and routes
+View subject details
+View school events in calendar
+View marks and attendances
+Send feedback/message to administration/teachers/students
+View class routine        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Dashboard:
+
+Personalized dashboards for students, teachers, and parents, showing relevant information such as upcoming events, deadlines, and personalized notifications.
+
+
+2. Messages:
+
+Integrated messaging system allowing direct communication between teachers, parents, and students within the platform.
+Real-time chat support for immediate assistance and queries.
+
+
+3. Students:
+
+See their child's progress reports and attendance records.
+Communicate directly with teachers.
+Have access to a list of students, including options to add new students and edit data.
+
+
+4. Teachers:
+
+Easily add, print, import, and export teacher information including personal and school details.
+
+5.Parents:
+
+View and update personal information.
+Add new parents to the system.
+Generate printable documents or reports.
+Export parent-related data.
+Parental portal providing access to student progress reports, attendance records, and communication with teachers.
+
+
+
+6. Classes:
+
+Schedule regular classes with details like timing, subject, and teacher.
+
+
+7. Attendance:
+
+Keep track of student attendance effortlessly, ensuring accurate records.
+Access attendance data quickly, making it simple to update and monitor.
+
+
+8. Subjects:
+
+Integration with digital learning resources and educational platforms to provide supplementary materials and resources for students and teachers.
+
+
+9. Marks:
+
+Use special tools to make reports about how students are doing in class.
+Show the information in graphs or charts to make it easier to understand.
+
+10. Exams:
+
+Dynamic calendar displaying school events, holidays, exams, and other important dates.
+Ability for users to sync the calendar with their personal calendars or devices.
+
+
+11. Events:
+
+Dynamic calendar displaying school events, holidays, exams, and other important dates.
+Ability for users to sync the calendar with their personal calendars or devices.
+
+
+12. Time table:
+
+Dynamic calendar displaying school events, holidays, exams, and other important dates.
+Ability for users to sync the calendar with their personal calendars or devices.
+
+
+13. Import history:
+
+AI-driven resource allocation to optimize classroom assignments, teacher schedules, and equipment usage based on demand and availability.
+
+
+14. Notify:
+
+Send notifications for important events, meetings, or updates.
+Keep everyone informed about school activities and announcements.
+
+15. Transport:
+
+Integration with digital learning resources and educational platforms to provide supplementary materials and resources for students and teachers.
+
+
+16. Change password:
+
+Improve security with options like multi-step verification and managing passwords.
+Update passwords by entering the old one, then creating a new one and confirming it.
+
+
+17. Leave calendar:
+
+Automated system for managing staff leave requests, approvals, and tracking leave balances.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.Online Admission Portal:
+
+Allow new students to apply for admission online.
+Provide application tracking and status updates.
+
+2. Financial Management:
+
+Tuition fee management with online payment options.
+Expense tracking for budget management.
+
+
+3. Health Management:
+
+Health records management for students.
+Automated notifications for vaccination schedules.
+
+
+4. Student Behavior Tracking:
+
+Record disciplinary actions and behavior incidents.
+Generate behavior reports for teachers and parents.
+
+
+5. Alumni Management:
+
+Maintain alumni database for networking and fundraising purposes.
+Organize alumni events and reunions.
+
+
+6. Career Counseling:
+
+Provide career assessment tools for students.
+Offer guidance on college applications and career paths.
+
+
+7. Extracurricular Activities Management:
+
+Schedule and manage extracurricular activities such as sports events, clubs, and competitions.
+Allow students to sign up for activities and track participation.
+
+
+8. Resource Booking:
+
+Allow teachers to book classrooms, labs, and equipment online.
+Manage resource availability and conflicts.
+
+
+9. Language Localization:
+
+Support multiple languages for user interface localization.
+Allow users to switch between languages based on their preferences.
+
+
+10. Accessibility Features:
+
+Ensure accessibility compliance for users with disabilities.
+Provide options for text-to-speech and screen reader support.
+
+
+11. Parent-Teacher Meeting Scheduler:
+
+Allow parents and teachers to schedule meetings online.
+Send reminders and confirmations for scheduled meetings.
+
+12. Surveys and Feedback:
+
+Conduct surveys to gather feedback from students, parents, and teachers.
+Analyze feedback to improve school services and processes.
+
+13. Integration with Learning Management Systems (LMS):
+
+Seamless integration with LMS platforms for course content delivery and assessments.
+
+14. Emergency Notification System:
+
+Send alerts and notifications in case of emergencies such as school closures or safety concerns.
+Allow parents and staff to receive notifications via SMS, email, or app notifications.
+
+15. Data Backup and Recovery:
+
+Implement regular backups of the system data to prevent data loss.
+Ensure robust data recovery mechanisms in case of system failures.
