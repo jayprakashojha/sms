@@ -1,0 +1,34 @@
+      		       "Teacher Registration page"
+
+Name field accepted numbers--Wrong
+FatherName field accepted numbers---It is Wrong
+Mobile number accepted 0---It is wrong
+Address field accepted numbers--Wrong
+"ENTER YOUR SPECIALIZATION SUBJECT 1" field accepted number---It's Wrong
+"ENTER YOUR SPECIALIZATION SUBJECT 2"field accepted number---It's Wrong
+"ENTER YOUR SPECIALIZATION SUBJECT 3" field accepted number---It's Wrong
+"ENTER YOUR UG SUBJECT / STREAM 1*" field accepted number---It's Wrong
+"ENTER YOUR UG SUBJECT / STREAM 2" field accepted number---It's Wrong
+"ENTER YOUR PG SUBJECT / STREAM 1*" field accepted number---It's Wrong
+"ENTER YOUR PG SUBJECT / STREAM 2"  field accepted number---It's Wrong
+"ENTER YOUR VOCATIONAL SUBJECT / STREAM 1*" field accepted number---It's Wrong
+"ENTER YOUR VOCATIONAL SUBJECT / STREAM 2" field accepted number---It's Wrong
+------------------------------------------------------------------------
+
+Name field accepted special symbol(i entered @ all fields)---Wrong
+FatherName field accepted special symbol---It is Wrong
+Mobile number accepted 0---It is wrong
+Address field accepted special symbol ----- Wrong
+"ENTER YOUR SPECIALIZATION SUBJECT 1" field accepted special symbol---It's Wrong
+"ENTER YOUR SPECIALIZATION SUBJECT 2"field accepted special symbol---It's Wrong
+"ENTER YOUR SPECIALIZATION SUBJECT 3" field accepted special symbol---It's Wrong
+"ENTER YOUR UG SUBJECT / STREAM 1*" field accepted special symbol---It's Wrong
+"ENTER YOUR UG SUBJECT / STREAM 2" field accepted special symbol---It's Wrong
+"ENTER YOUR PG SUBJECT / STREAM 1*" field accepted special symbol---It's Wrong
+"ENTER YOUR PG SUBJECT / STREAM 2"  field accepted special symbol---It's Wrong
+"ENTER YOUR VOCATIONAL SUBJECT / STREAM 1*" field accepted special symbol---It's Wrong
+"ENTER YOUR VOCATIONAL SUBJECT / STREAM 2" field accepted special symbol---It's Wrong
+--------------------------------------------------
+there is no message showing for selecting "Gender".
+there is no message showing for put 10 digit number in "mobile" field.
+Unique ID accepted single word --Wrong (It will be accept only numbers)
