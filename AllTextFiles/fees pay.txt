@@ -1,0 +1,39 @@
+Key Components
+Database Tables:
+
+Students: Contains student details.
+student_id (Primary Key)
+name
+class
+section
+contact_info
+Fees: Stores fee details.
+fee_id (Primary Key)
+fee_type (e.g., tuition, library, lab)
+amount
+
+
+Payments: Records payment transactions.
+payment_id (Primary Key)
+student_id (Foreign Key)
+fee_id (Foreign Key)
+amount_paid
+payment_date
+FeeStructure: Defines fee structure for each student/class.
+fee_structure_id (Primary Key)
+class
+fee_type
+amount
+
+Java Classes:
+
+Student: Represents a student.
+Fee: Represents different types of fees.
+Payment: Represents a payment transaction.
+FeeStructure: Represents the fee structure for each class or type.
+Pages/Interfaces:
+
+Fee Payment Page: Where payments are processed.
+Fee Status Page: Where students can check their payment status.
+Admin Dashboard: For administrators to manage fees and view payments.
+Student Dashboard: For students to view their fee details and make payments.
