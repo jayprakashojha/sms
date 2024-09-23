@@ -1,0 +1,37 @@
+Step5:-
+CREATE TABLE teachers_registration (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    uid VARCHAR(255) NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    fname VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    mob VARCHAR(15) NOT NULL,
+    gender ENUM('Male', 'Female') NOT NULL,
+    address TEXT NOT NULL,
+    sub1 VARCHAR(255) NOT NULL,
+    sub2 VARCHAR(255),
+    sub3 VARCHAR(255),
+    ug1 VARCHAR(255) NOT NULL,
+    ug2 VARCHAR(255),
+    pg1 VARCHAR(255) NOT NULL,
+    pg2 VARCHAR(255),
+    voc1 VARCHAR(255) NOT NULL,
+    voc2 VARCHAR(255)
+);
+
+
+
+
+Step6:-
+CREATE TABLE teacher_login (
+    username VARCHAR(50) PRIMARY KEY,
+    password_hash VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+
+
+
+
+
