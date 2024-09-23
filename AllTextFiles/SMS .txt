@@ -1,0 +1,187 @@
+			School Management Project
+
+User(Student):-
+1. Enquiry 
+2. Registration
+3. Login
+4. Pay Fees
+5. View scheduale and Homework
+6. View Attendance Records
+7. View Prograss Reports
+8.Update Student Information
+(like if he changed his mobile nuumber than he avail to update his mobile number)
+9.Access Library Resources(Subjects, 
+10. Participate in Events and Competitions.
+11. Access Classed
+-----------------------------------------------------------
+Admin:-
+1. Admin Registration 
+2. Login
+3. View Enquiry details and perform CRUD operation
+4. View Registrated User's list with perform CRUD operation
+5. View and Download Student's/Teacher's Uploaded File/Document
+
+6. Create, update, and delete classes. 
+   Assign teachers to classes.
+
+7. Create, update, and delete subjects.
+   Assign subjects to classes and teachers.
+
+8. Record and track attendance for students and staffs.
+   Generate attendance reports for analysis and compliance.
+
+9.Set up fee structures and payment plans.
+  Manage fee waivers, scholarships.
+
+
+10. Manage library resources and catalog.
+Track books, issue/receive books, and manage fines. 
+
+11. Perform Salary operation-salary slip, salary sheet, salary report.
+
+----------------------------------------------------------
+
+Teacher:
+1. Regitration For teachers
+2. Login
+3. Subjects information
+4. View Schedules 
+5. Record Attendance
+6. Add/Update Subjects (partially, for subjects they teach)
+7. Update Teacher Information 
+8. View Student Progress and Grades:Access and review student performance records, including grades, attendance, and behavior reports.
+9. Input Marks
+10. Holidays calender 
+
+----------------------------------------------------------------------------- 
+
+Notable Features:
+
+1.Dashboard: Determines user type (Student, Teacher, Parent) and directs to respective functionalities.
+2. Leave Calendar: Teachers can submit and manage leave requests.
+
+3. Extracurricular Activities Management: Students can sign up for activities;    teachers manage activity details and participation tracking.
+
+4. Surveys and Feedback: All users can participate in surveys and provide feedback for system improvements.
+
+----------------------------------------------------------------------------
+				USER
+Use Cases/User Stories:-
+For Enquiry-
+User Story 1- Create the Database table for enquiry form.
+User Story 2- Design the HTML Form for enquiry.
+User Story 3- Write JDBC Program for Connection.
+User Story 4- Write Servlet program to get the data form html form.
+User Story 5- Write Business/Logic DB layer to perform CRUD operation for enquiry.
+User Story 6- Integrate all the 5 Stories into single one and Test code.
+
+For Registration-
+User Story 1- Create the database table for store registration form data.
+User Story 2- Design the HTML form for registration.
+User Story 3- Write JDBC Program for Connection.
+User Story 4- Write Servlet program to get the data from registration form.
+User Story 5- Write Logic DB layer to perform CRUD operation for registration.
+
+For Login-
+User Story 1- Design the HTML form for Login.
+User Story 2- Write JDBC Program for Connection 
+User Story 3- Write Servlet Program for Login.(to handle login requests, validate user inputs).
+User Story 4- Integrate and Test Login Functionality.
+
+For Pay Fees-
+User Story 1-Create the Database Table for fees payments. (to store payment transactions including student ID, amount, date)
+User Story 2- Design the HTML form for Fees Payments.
+User Story 3- Write JDBC Program for Connection 
+User Story 4- Integrate and Test Payment Module
+
+For View Schedule and Homework-
+User Story 1- Create Database Table for schedule and Homework.(to store class schedules, assignment details, deadlines, etc.)
+User Story 2- Design UI for Schedule and Homework.
+User Story 3- Write JDBC Program for Connection
+User Story 4- Write Servlet Program for Schedule and Homework
+User Story 5- Integrate and Test Schedule and Homework Display
+
+For View Attendance Records-
+User Story 1- Create Database Table for Attendance Records
+User Story 2- Design UI for Attendance Records
+User Story 3- Write JDBC Program for Connection
+User Story 4- Write Servlet Program for Attendance Records
+User Story 5- Integrate and Test Attendance Rocords Display
+
+For View Prograss Reports-
+User Story 1- Create Datasese Table for View Prograss.(to store academic performance data including student ID, subject-wise grades, etc.)
+User Story 2- Design UI for Prograss Report.(to present progress reports with  graphical representation and detailed breakdown.)
+User Story 3- Write JDBC Program for Connection.( to retrieve progress report  data from the database.)
+User Story 4- Write Servlet Program for Prograss Reports.
+User Story 5- Integrate and Test Prograss Reports.   
+
+For Update Student Information-
+User Story 1- Create Database Table for Student Information.
+User Story 2- Design UI for Update Information
+User Story 3- Write JDBC Program for Connection
+User Story 4- Write Servlet Program for Update Information
+User Story 5- Integrate and Test Update Information Functionality.
+
+For Participation in Events and Competitions-
+User Story 1- Create Database Table for Events and Competitions
+User Story 2- Design UI for Events and Competitions
+User Story 3- Write JDBC Program for Connection
+User Story 4- Write Servlet Program for Events and Competitions
+User Story 5- Integrate and Test Events and Competitions Module
+
+For Access Classes-
+User Story 1- Create Database Table for Class Information.( to store details of subjects, course materials, and related information.)
+User Story 2- Design UI for Class Access.
+User Story 3- Write JDBC Program for Connection.
+User Story 4- Write Servlet Program for Class Access.
+User Story 5- Integrate and Test Class Access Functionality.
+-------------------------------------------------------------------------------------
+					ADMIN
+
+For Admin Registration-
+User Story 1- Create Database Table for Admin Registration
+User Story 2- Design HTML Form for Admin Registration
+User Story 3- Write JDBC Program for Connection
+User Story 4- Write Servlet Program for Admin Registration
+User Story 5- Integrate and Test Admin Registration
+
+For Login-
+User Story 1- Design HTML Form for Admin Login
+User Story 2- Write JDBC Program for Connection
+User Story 3- Write Servlet Program for Admin Login
+User Story 4- Integrate and Test Admin Login Functionality
+
+For View Enquiry details and perform CRUD operation-
+User Story 1- Create a page for View Enquiry details.
+User Story 2- Create Action Like Edit/Delete/Add
+User Story 3- Write Servlet Program for Equiry operations
+User Story 4- Integrate and Test Enquiry page
+
+For View Registrated User's list with perform CRUD operation-
+User Story 1- Create a page for View Registered Users List
+User Story 2- Create Action button on the page Edit/Delete/Add
+User Story 3- Write Servlet Program for Registration page.
+User Story 4- Integrate and Test Registrated users list and buttons
+
+For View and Download Student's/Teacher's Uploaded File/Document-
+User Story 1- Create a page for View Uploaded Files/Documents
+User Story 2- Create Download button on the page for Download File/Document
+User Story 3-Integrate and Test View and download Files
+
+For Create, update, and delete classes. Assign teachers to classes-
+User Story 1- Create a JSP page for Create/Add class.
+User Story 2- Create Action button on the page for class Edit/Delete/Add
+User Story 3- Create a jsp page for Assign Teacher to Class
+User Story 4- Write JDBC Program for Connection
+User Story 5- Write Servlet Program for CRUD class operation and assign class to the teacher
+User Story 6- Integrate and Test CRUD Functionality.
+
+For Create, update, and delete subjects.Assign subjects to classes and teachers-
+User Story 1- Create a JSP page for Create Subjects.
+User Story 2- Create Action button on the page for Subjects Edit/Delete/Add
+User Story 3- Create a JSP page for Assign Subject to Class
+User Story 4- Create a JSP page for Assign Subject to Teacher
+User Story 5- Integrate and Test CRUD Functionality.
+
+For Set up fee structures and payment plans.Manage fee Discount, scholarships.
+ 
