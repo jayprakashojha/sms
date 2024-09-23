@@ -1,0 +1,10 @@
+CREATE TABLE teacher_feedback (
+    id INT NOT NULL AUTO_INCREMENT,
+    teacherName VARCHAR(255) NOT NULL,
+    teacherEmail VARCHAR(255),
+    course VARCHAR(255) NOT NULL,
+    teachingExperience INT NOT NULL,
+    feedback TEXT NOT NULL,
+    createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (id)
+);
